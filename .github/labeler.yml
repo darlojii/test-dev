@@ -1,0 +1,2 @@
+# Labeler configuration file
+develop: ['*_conflict']
