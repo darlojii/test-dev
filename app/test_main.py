@@ -9,3 +9,6 @@ class TestMain(unittest.TestCase):
     def test_reverse_string(self):
         response = self.app.get('/ReverseMe')
         self.assertEqual(response.data, b'eMesreveR')
+
+if __name__ == '__main__':
+    unittest.main()
