@@ -3,7 +3,6 @@ import unittest
 
 class TestMain(unittest.TestCase):
     def test_home(self):
-        response = self.app.get('/')
         self.assertEquals('Hello, World!', home())
 
     def test_reverse_string(self):
